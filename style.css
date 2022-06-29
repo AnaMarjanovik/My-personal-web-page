@@ -10,77 +10,69 @@ html{
     background-color: black;
     display: inline-block;
     position: relative;
-    width: 6300px;
-    height: 4000px;
-}
-.background2{
-    background-color: white;
-    display: inline-block;
-    position: absolute;
-    width: 5500px;
-    height: 15px;
-    margin-top: 600px;
-    margin-left: 390px;
+    width: 1520px;
+    height: 1000px;
 }
 .Logo{
     color: white;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 200px;
+    font-size: 50px;
     display: inline-block;
     position: relative;
-    margin-left: 2700px;
-    margin-top: 250px;
+    margin-left: 675px;
+    margin-top: 62px;
 }
 .navigation{
     background-color: white;
     display: inline-block;
     position: absolute;
-    margin-left: -3220px;
-    margin-top: 500px;
-    width: 5500px;
-    height: 200px;
+    margin-left: -835px;
+    margin-top: 125px;
+    width: 1375px;
+    height: 50px;
     transition: transform 5s;
 }
 .navigation > a{
     text-decoration: none;
-    font-size: 70px;
+    font-size: 17px;
     color: black;
     display: inline-block;
     position: relative;
-    margin-left: 200px;
-    margin-top: 70px;
+    margin-left: 50px;
+    margin-top: 25px;
     font-family: 'Josefin Sans', sans-serif;
-    margin-left: 465px;
-    padding-bottom: 100px;
+    margin-left: 115px;
+    padding-bottom: 25px;
     background-color: hotpink;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
     font-weight: bold;
+    transition: all 0.2s ease-in-out;
 }
 .navigation >a:hover{
-    transform: translateY(-50%);
+    /*transform: translateY(-50%);*/
+    transform: scale(120%);
     font-weight: bolder;
 }
 .footer{
     display: inline-block;
     position: absolute;
     background-color: hotpink;
-    width: 6190px;
-    height: 600px;
+    width: 4315px;
+    height: 150px;
     margin-left: -3699px;
-    margin-top: 3400px;
+    margin-top: 850px;
 }
 .footer1{
     display: inline-block;
     position: absolute;
     background-color: hotpink;
-    width: 9600px;
-    height: 600px;
-    margin-left: -16000px;
-    margin-top: 3400px;
-
+    width: 1547px;
+    height: 150px;
+    margin-left: -1000px;
+    margin-top: 850px;
 }
 .text {
     color: white;
@@ -88,8 +80,8 @@ html{
     font-size: 250px;
     display: inline-block;
     position: absolute;
-    margin-top: 1800px;
-    margin-left: -2500px;
+    margin-top: 450px;
+    margin-left: -625px;
     font-family: 'Josefin Sans', sans-serif;
 }
 .under-text{
@@ -98,59 +90,62 @@ html{
     display: inline-block;
     position: absolute;
     margin-top: 2000px;
-    margin-left: -2500px;
+    margin-left: -500px;
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 130px;
+    padding-top: 32px;
 
 }
 .home-image{
     background-color: white;
     display: inline-block;
     position: absolute;
-    margin-top: 1200px;
+    margin-top: 300px;
 }
 .text2{
     display: inline-block;
     position: absolute;
-    margin-top: 1500px;
-    margin-left: -2600px;
+    margin-top: 375px;
+    margin-left: -650px;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    font-size: 200px;
+    font-size: 50px;
 }
 .text3{
     color: white;
-    font-size: 120px;
+    font-size: 30px;
     display: inline-block;
     position: absolute;
-    margin-top: 1100px;
-    margin-left: -2900px;
+    margin-top: 275px;
+    margin-left: -650px;
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 700px;
+    padding-top: 175px;
 }
 .img2{
     background-color: white;
     display: inline-block;
     position: absolute;
-    margin-top: 1200px;
+    margin-top: 300px;
 }
 .text4{
     color: white;
-    font-size: 140px;
+    font-size: 35px;
     display: inline-block;
     position: absolute;
-    margin-top: 1400px;
-    margin-left: -2900px;
+    margin-top: 350px;
+    margin-left: -725px;
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 130px;
+    padding-top: 32px;
 }
 .text5{
     color: white;
-    font-size: 140px;
+    font-size: 30px;
     display: inline-block;
     position: absolute;
-    margin-top: 1400px;
-    margin-left: -2900px;
+    margin-top: 350px;
+    margin-left: -725px;
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 130px;
+    padding-top: 32px;
+}
+.text6{
+    font-size: 50px;
 }
